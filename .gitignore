@@ -1,0 +1,77 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+dist/
+build/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+ENV/
+env/
+.env.venv/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# FastAPI / Uvicorn / Gunicorn
+# -----------------------------
+*.log
+logs/
+gunicorn.conf.pyc
+
+# -----------------------------
+# Local databases / runtime data
+# (If you want to commit some data files, remove the matching lines)
+# -----------------------------
+data/*.db
+data/*.sqlite*
+data/*.sqlite3
+data/*.json
+!data/.gitkeep
+
+# If you specifically want to ignore ONLY dummy_db.json, use this instead
+# and remove "data/*.json" above:
+# data/dummy_db.json
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter / Notebooks (optional)
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Docker (optional)
+# -----------------------------
+*.pid
